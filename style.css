@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+    
+}
+
+.bold {
+    font-weight: bold;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+}
+
+nav li a{
+    
+    width: calc(100vw/3);
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a:hover{
+    color: rgb(99, 99, 99);
+}
+
+/* header */
+header {
+    height: 40vh;
+    background-color: antiquewhite;
+    display: flex;
+}
+
+header h2{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+header img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+
+    padding: 2rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    margin: 15px;
+    background-color: antiquewhite;
+    width: 70%;
+    padding: 1rem;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+/* abbout me */
+.article-header{
+    margin-bottom: 10px;
+}
+
+.aboutme-main{
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutme-main .data{
+    width: 70%;
+}
+
+
+/* EDU */
+
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 10px;
+}
+.item img{
+    height: 50px;
+}
+/* CARD */
+
+#skills {
+    width: 100%;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    min-height: 200px;
+    width: calc(90%/3);
+    min-width: 200px;
+    padding: 2rem;
+
+    border-radius: 3rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card .icon{
+    font-size: 5rem;
+    
+
+}
+
+.card h2{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
